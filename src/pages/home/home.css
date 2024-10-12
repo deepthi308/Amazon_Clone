@@ -1,0 +1,21 @@
+.home {
+  max-width: 1500px;
+  margin: 0 auto;
+  /* background-color: rgb(5, 5, 5); */
+}
+
+.home-row {
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+  gap: 1rem;
+  margin: auto;
+  justify-content: center;
+}
+
+.home-image {
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -150px;
+}
